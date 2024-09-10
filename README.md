@@ -17,8 +17,19 @@
 ## Запуск микросервиса
 
 1. Установить Docker на компьютер.
-2. Открываем терминал в папке ../docker.
-3. Пишем в терминал `docker-compose up`.
+2. Клонируем репозиторий на компьютер.
+```BASH
+   git clone https://github.com/Tomeshiro/Test-case.git
+   ```
+3. Собираем проект, зайдя в папку docker внутри репозитория и введя команду `build`.
+```BASH
+   cd docker
+   docker build .
+   ```
+4. Запускаем микросервис.
+```BASH
+   docker-compose up
+   ```
 
 ## Проверка POST
 Пример входа
